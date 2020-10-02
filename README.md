@@ -1,2 +1,2 @@
 # condorbot_beta
-A friendly condorbot fot CondorLabs: Beta Version
+A friendly condorbot for CondorLabs: Beta Version

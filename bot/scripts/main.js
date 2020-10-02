@@ -4,8 +4,8 @@
 // })
 //}
 
-const { create } = require("./hears/vacation/create/create");
-const { revoke } = require("./hears/vacation/revoke/revoke");
+const { create } = require("./hears/vacations/create/create");
+const { revoke } = require("./hears/vacations/revoke/revoke");
 const { schedule } = require("./hears/office_hrs/schedule/schedule");
 const { list } = require("./hears/office_hrs/list/list");
 

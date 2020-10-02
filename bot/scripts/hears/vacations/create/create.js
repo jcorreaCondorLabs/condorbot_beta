@@ -1,5 +1,5 @@
 const create = (robot) => {
-    robot.respond(/vacation create/, async (res) => {
+    robot.respond(/vacations create/, async (res) => {
         const botName = res.robot["name"];
         let command = res.match["input"];
         command = command.replace(botName, "");
