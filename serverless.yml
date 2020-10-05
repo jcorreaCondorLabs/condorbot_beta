@@ -19,7 +19,19 @@ functions:
     events:
       - http:
           path: condorbot/api/vacations/create
+          method: post
+  list:
+    handler: bin/api/office_hrs/list
+    events: 
+      - http:
+          path: condorbot/api/office_hrs/list
           method: get
+  schedule:
+    handler: bin/api/office_hrs/schedule
+    events:
+      - http:
+          path: condorbot/api/office_hrs/schedule
+          method: post
   #world:
    # handler: bin/world
     #events:

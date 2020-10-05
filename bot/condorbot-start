@@ -1,1 +1,4 @@
-HUBOT_SLACK_TOKEN=xoxb-2754463791-1427942942400-PL9m78JOqiY1Xp34MwzSKr1o ./bin/hubot --adapter slack
+HUBOT_SLACK_TOKEN=xoxb-2754463791-1427942942400-JrjMfCH4AqzLZL0hypmhm41I ./bin/hubot --adapter slack
+
+"channel":"C01C8KEUN9X"
+curl -X POST https://slack.com/api/chat.postMessage -H  'Authorization: Bearer xoxb-2754463791-1427942942400-JrjMfCH4AqzLZL0hypmhm41I' -H 'Content-type: application/json;charset=utf-8' -d '{"channel":"#condorbot-work-space ", "text":"Hello boy!"}'
